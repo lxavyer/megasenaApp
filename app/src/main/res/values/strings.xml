@@ -1,0 +1,7 @@
+<resources>
+    <string name="main_description">Tests</string>
+    <string name="txt_button">Button</string>
+    <string name="txt_naosei">naosei</string>
+    <string name="btn_update">ATUALIZAR</string>
+
+</resources>

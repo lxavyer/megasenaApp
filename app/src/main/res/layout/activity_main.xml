@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/mostrandoJogos"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Qual sera o numero de jogos:" />
+
+    <EditText
+
+        android:id="@+id/jogos"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/mostrandoNumeros"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Quantidade de numeros sorteados:" />
+
+    <EditText
+
+        android:id="@+id/numeros"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"/>
+
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/btn_update" />
+
+    <TextView
+        android:id="@+id/lpl_hello5"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/lpl_hello"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center"
+        android:text="" />
+    <TextView
+        android:id="@+id/lpl_hello2"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center"
+        android:text="" />
+    <TextView
+        android:id="@+id/lpl_hello3"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/lpl_hello4"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center"
+        android:text="" />
+
+
+</LinearLayout>
